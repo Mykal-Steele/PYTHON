@@ -21,7 +21,6 @@ def kthDigit(x,b,k):
     elif k == 1:
         x = x/b
         output = x % b
-
         return int(output)
     elif k == 2:
         x = x/b
@@ -30,5 +29,4 @@ def kthDigit(x,b,k):
         return int(output)
     
 
-result = kthDigit(x = int(input("x = ")),b = int(input("base = ")),k = int(input("k = ")))
-print(result)
+print(kthDigit(x = int(input("x = ")),b = int(input("base = ")),k = int(input("k = "))))
