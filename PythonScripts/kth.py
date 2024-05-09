@@ -27,6 +27,5 @@ def kthDigit(x,b,k):
         x = x/b
         output = x% b
         return int(output)
-    
 
 print(kthDigit(x = int(input("x = ")),b = int(input("base = ")),k = int(input("k = "))))
