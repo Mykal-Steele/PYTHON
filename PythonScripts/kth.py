@@ -1,5 +1,5 @@
 
-# This is a better, doesn't follow the special rule
+# This is a better code, doesn't follow the special rule
 # def kthDigit(x, b, k):
 #     if k == 0: 
 #         return x % b
