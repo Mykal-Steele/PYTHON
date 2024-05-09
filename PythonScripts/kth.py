@@ -8,15 +8,12 @@
 #             x //= b
 #         return x % b
 
-
 # print(kthDigit(x = int(input("x = ")),b = int(input("base = ")),k = int(input("k = "))))
 
 
 
 
-# I only used if statements here, but the code sucks.
-
-
+# I only used if statements here like the special rule said, but the code sucks.
 def kthDigit(x,b,k):
     if k == 0:
         output = x % b
