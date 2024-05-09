@@ -10,7 +10,7 @@ def kthDigit(x, b, k):
 print(kthDigit(x = int(input("x = ")),b = int(input("base = ")),k = int(input("k = "))))
 
 
-# This is my initial code lmao. I forgot the 'for' loop existed
+# This is my initial code lmao. I forgot that 'for' loop existed
 
 
 # def kthDigit(x,b,k):
