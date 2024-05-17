@@ -25,7 +25,7 @@ def listOfHappy(index: int) -> list:
         num += 1  # Moves to next number
     return numList  # Returns list of happy numbers
 def quit_script():
-    print("Exiting the script. Goodbye!")
+    print("Exiting the script. Goodbye!👋")
     time.sleep(1)
     sys.exit()
 
@@ -33,10 +33,11 @@ def quit_script():
 while True:
     ui = input("Press 'K' to find the kth\nPress 'H' to check if a number is a Happy Number\nPress 'Q' to quit the script\n\nType...")  # Asking for user input
     if ui.lower() == 'k':  # Checks if user wants to find the kth happy number
+        time.sleep(0.5)
         while True:
             k = int(input("Enter the k-th index for the Happy Number: "))  # Asking for the index of the happy number
             if k <= 0:  # Checking if index is valid
-                print("\n$$ Invalid input. The Value Can't be Lower than 1.$$\n")  # Printing an error message for invalid input
+                print("\n$$❌ Invalid input. The Value Can't be Lower than 1.$$\n")  # Printing an error message for invalid input
             else:
                 break
         kth = listOfHappy(k)  # Generating list of happy numbers up to specified index
@@ -44,10 +45,11 @@ while True:
         time.sleep(1.4)  # Pausing execution for 1.4 seconds
         
     elif ui.lower() == 'h':  # Checks if user wants to check if a number is happy
+        time.sleep(0.5)
         while True:
             num = int(input("Enter a number to check if it's a Happy Number: "))  # Asking for the number to check
             if num <= 0:  # Checking if number is valid
-                print("\n$$ Invalid input. The Value Can't be Lower than 1.$$\n")  # Printing an error message for invalid input
+                print("\n$$❌ Invalid input. The Value Can't be Lower than 1.$$\n")  # Printing an error message for invalid input
             else:
                 break
         n = sumOfDigitsSquared(num)  # Computing sum of squared digits of the input number
@@ -58,5 +60,5 @@ while True:
         quit_script()  # Calling the function to quit the script
 
     else:  # Handles invalid input
-        print("\n$$ Invalid input. Please try again. $$\n")  # Printing an error message for invalid input
+        print("\n$$❌ Invalid input. Please try again. $$\n")  # Printing an error message for invalid input
         time.sleep(1)  # Pausing execution for 1 second
