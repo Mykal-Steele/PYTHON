@@ -5,7 +5,7 @@ def readAloud(lst: list[int]) -> list[int]:
     output = []
     k = lst[0]
     while index < len(lst): # Loop until the end of the list
-        count = 1 # first enconder
+        count = 1 # first encounter
         while index + 1 < len(lst) and lst[index] == lst[index +1]: # While the list still has more numbers and the next number in the list is the same as the current number...
             count += 1
             index += 1
