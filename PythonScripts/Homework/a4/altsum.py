@@ -1,3 +1,5 @@
+# (a4, Task_1)
+
 def altsum(lst: list[int]) -> int:
     output = []
     next_neg = False

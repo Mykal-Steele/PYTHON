@@ -1,3 +1,5 @@
+# (a4, Task_7) #
+
 def fuc_is_prime(unchecked: list[int]) -> tuple[list[int], list[bool]]:
     # Function to check prime numbers in a list and return the list of unchecked numbers and their prime status
     
