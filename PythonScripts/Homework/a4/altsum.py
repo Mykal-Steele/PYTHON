@@ -19,15 +19,17 @@ def altsum(lst: list[int]) -> int:
     print(output) # for error check
     return sum(output)
 
+def ask_for_input():
+    lst = [] # create a empty list for input stroage
+    while True:
+        i = input("Type a number (or 'Done' to stop): ")
+        if i.lower() == "done":
+            break
+        try:
+            lst.append(int(i))
+        except ValueError:
+            print("Please enter a valid number or 'Done' to stop.")
+    return lst
 
-lst = [] # create a empty list for input stroage
-while True:
-    i = input("Type a number (or 'Done' to stop): ")
-    if i.lower() == "done":
-        break
-    try:
-        lst.append(int(i))
-    except ValueError:
-        print("Please enter a valid number or 'Done' to stop.")
-
+lst = ask_for_input()
 print(altsum(lst))
