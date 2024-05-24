@@ -194,6 +194,25 @@ This directory contains various Python scripts for different assignments and exe
 
       ```
 
+2. **altsum.py**
+   - idk
+      ```markdown
+      # Multiples Checker
+      
+      This Python script checks if all elements in a user-provided list are multiples of a specified integer `k`.
+      
+      ## Description
+      
+      The script defines a function `allMultiplesOfK(k, lst)` that checks if all elements in the list `lst` are multiples of `k`. It then collects user input to build the list and checks the condition using the function.
+      
+      ## Usage
+      
+      1. Run the script.
+      2. Input the integer `k` when prompted.
+      3. Input multiple numbers to build the list `lst`. Type 'Done' when finished.
+      4. The script will check if all elements in the list are multiples of `k` and display the result.
+      ```
+
 ## Usage
 To run any of these scripts, use the following command:
 
