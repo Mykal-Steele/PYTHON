@@ -33,3 +33,5 @@ def ask_for_input():
 
 lst = ask_for_input()
 print(altsum(lst))
+
+# output = 1 + 2 - 3 + 4 - 5 + 6 - ... so on
