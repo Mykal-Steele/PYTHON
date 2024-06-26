@@ -6,8 +6,10 @@ lsts = []  # Initialize an empty list to store user input numbers
 w = True  # Initialize a flag to control the outer loop
 
 while True:  # Start an infinite loop
+    
     if w == True:  # Check if it's the first iteration
-        while True:  # Start an inner infinite loop
+        while True:  # Start an inner infinite 
+            print("This will check if ALL the number you typed are the multiples of k")
             k = input("Type in the integer k: $")  # Prompt user to input k
             try:
                 k = int(k)  # Try to convert k to an integer
