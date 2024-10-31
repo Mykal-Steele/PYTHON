@@ -71,7 +71,7 @@ Type 'dia' for the Diamond Pattern. It combines both the top and bottom parts of
 Type... """   
 while True:
     k = input(prompt)
-
+    
     def loading_animation(duration=2):
         start_time = time.time()
         while True:
@@ -83,12 +83,11 @@ while True:
                 if time.time() - start_time >= duration:
                     return
 
-
+    
     try:
         k = int(k)
         extra = False
         if int(k) >= 0:
-            
             loading_animation(duration=0.5)
             print("\n")
             
