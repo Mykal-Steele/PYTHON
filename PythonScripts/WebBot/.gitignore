@@ -1,0 +1,8 @@
+# Ignore Facebook cookies file
+fb_cookies.pkl
+
+# Ignore all pickle files
+*.pkl
+
+# Ignore other possible sensitive files like environment files
+.env
